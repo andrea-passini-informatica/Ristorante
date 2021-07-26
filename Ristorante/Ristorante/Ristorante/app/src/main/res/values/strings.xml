@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ristorante</string>
+
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="empty"> </string>
+
+    <string name="LOGIN">LOGIN</string>
+    <string name="CANCELLA">CANCELLA</string>
+    <string name="cerca">CERCA</string>
+    <string name="aggiungi">AGGIUNGI</string>
+    <string name="elimina">ELIMINA</string>
+    <string name="modifica">MODIFICA</string>
+    <string name="eliminaElemento">ELIMINA ELEMENTO</string>
+    <string name="continua">CONTINUA</string>
+    <string name="conferma">CONFERMA</string>
+
+    <string name="AddOrdinazione">NUOVA ORDINAZIONE</string>
+    <string name="AddPiatto">AGGIUNGI PIATTO</string>
+
+    <string name="Ingrediente">Ingrediente</string>
+    <string name="Quantità">Quantità</string>
+    <string name="Piatto">Piatto</string>
+
+    <string name="GesioneD">GESTIONE DIPENDENTI</string>
+    <string name="Resoconto">RESOCONTO CUCINA</string>
+
+    <string name="SvuotaCampi">SVUOTA CAMPI</string>
+
+
+    <string name="Id">Id</string>
+    <string name="Nome">Nome</string>
+    <string name="Titolo">Titolo</string>
+
+    <string-array name="role_array">
+        <item>magazziniere</item>
+        <item>cameriere</item>
+        <item>cuoco</item>
+        <item>chef</item>
+        <item>dirigente</item>
+    </string-array>
+</resources>

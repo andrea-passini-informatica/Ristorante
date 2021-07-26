@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.compa.readerocr"
+    android:versionCode="1"
+    android:versionName="1.1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+        <activity android:name=".DirigenteDipendentiAddActivity"></activity>
+        <activity android:name=".DirigenteResocontoActivity" />
+        <activity android:name=".DirigenteDipendentiActivity" />
+        <activity android:name=".ChefModificaComposizioneRicettaActivity" />
+        <activity android:name=".ChefComposizioneRicettaActivity" />
+        <activity android:name=".ChefMenuActivity" />
+        <activity android:name=".ChefRicetteActivity" />
+        <activity android:name=".ChefIngredientiActivity" />
+        <activity android:name=".CuocoOrdinazionmeActivity" />
+        <activity android:name=".CameriereOrdinazioneActivity" />
+        <activity android:name=".DirigenteActivity" />
+        <activity android:name=".ChefActivity" />
+        <activity android:name=".CuocoActivity" />
+        <activity android:name=".MagazziniereActivity" />
+        <activity android:name=".CameriereActivity" />
+        <activity
+            android:name=".ControllerActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="25" />
+
+</manifest>
